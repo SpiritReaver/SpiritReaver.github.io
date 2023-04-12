@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="Styles.css">
+    <title>Decodificador y codificador</title>
+</head>
+
+<body>
+
+    <header>
+        <img src="/SpiritReaver.github.io/images/logoAlura.png" alt="Logo da Alura">
+    </header>
+
+    <main>
+        <section>
+            <textarea class="text-area" cols="41" rows="5" placeholder="Ingrese su texto..."></textarea>
+
+            <div>
+                <h6 class="informacao">Minusculas y sin acento.</h6>
+            </div>
+            <div class="botoes">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+
+        <section>
+            <textarea class="mensaje" id="mensaje" cols="20" rows="10"></textarea>
+            <button class="btn-copiar" onclick="copiar()">Copiar</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
